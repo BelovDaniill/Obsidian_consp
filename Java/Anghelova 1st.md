@@ -32,7 +32,7 @@ class Studnet {
 	int marks[]     // кол-во оценок
 	
 	Studnet () {    // конструктор класса студент
-		name = "Pantera";
+		name = "P";
 		lazynass = (FLoat)0.67; // 0.67f
 		IQ = (Byte)127;
 		exams = 6;
