@@ -74,5 +74,20 @@ class Studnet {
 			System.out.print(" " + this.exams[i]);
 		}
 	}
+	
+	void compare_lazyness(student A){
+	if(this.lazyness > A.lazyness) return this.name;
+	if(this.lazyness < A.lazyness) return A.name;
+	if(this.lazyness = A.lazyness) return 0;
+	}
+	
+	static void compare_iq(student A, student B){
+	if(B.IQ > A.IQ) return B.name;
+	if(B.IQ < A.IQ) return A.name;
+	if(B.IQ = A.IQ) return 0;
+	}
 }
 ```
+
+Вызовы **статических** переменных и функций делаются от имени класса.
+
