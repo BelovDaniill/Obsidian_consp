@@ -91,3 +91,13 @@ class Studnet {
 
 Вызовы **статических** переменных и функций делаются от имени класса.
 
+```java
+
+publick set_exams(int newExams){
+	if (newExamms > 0 && newExasm != exams && newExams != 18) {
+	int tmp[] = new int [exams]
+	for (int i = 0; )
+	}
+}
+
+```
